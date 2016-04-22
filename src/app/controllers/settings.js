@@ -38,7 +38,7 @@ angular.module("proton.controllers.Settings", [
     $scope.doLogging = authentication.user.LogAuth;
     $scope.cssTheme = authentication.user.Theme;
     $scope.languages = ['English', 'French', 'German', 'Spanish', 'Italian', 'Brazilian Portuguese'];
-    $scope.locales = {English: 'en_US', French: 'fr_FR', German: 'de_DE', Spanish: 'es_ES', Italian: 'it_IT', Brazilian Portuguese: 'pt_BR'};
+    $scope.locales = {English: 'en_US', French: 'fr_FR', German: 'de_DE', Spanish: 'es_ES', Italian: 'it_IT', 'Brazilian Portuguese': 'pt_BR'};
     $scope.selectedLanguage = 'English';
     $scope.disabledText = $translate.instant('DISABLE');
     $scope.ComposerMode = authentication.user.ComposerMode;
